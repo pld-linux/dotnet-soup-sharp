@@ -1,0 +1,10 @@
+--- soup-sharp-2.42.2/soup-sharp-2.4.pc.in~	2014-02-28 16:57:14.000000000 +0200
++++ soup-sharp-2.42.2/soup-sharp-2.4.pc.in	2014-07-13 12:59:36.403025543 +0300
+@@ -1,6 +1,6 @@
+ prefix=@prefix@
+ exec_prefix=${prefix}
+-libdir=@libdir@
++libdir=${exec_prefix}/lib
+ 
+ Name: @ASSEMBLY_TITLE@
+ Description: @ASSEMBLY_DESCRIPTION@
