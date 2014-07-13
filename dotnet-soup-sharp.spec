@@ -17,6 +17,7 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	dotnet-gtk-sharp3-devel
 BuildRequires:	libsoup-devel >= 2.42
+BuildRequires:	libtool
 BuildRequires:	mono-csharp >= 1.1.0
 BuildRequires:	monodoc >= 2.6
 BuildRequires:	pkgconfig
