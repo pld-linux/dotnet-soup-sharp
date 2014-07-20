@@ -18,6 +18,7 @@ BuildRequires:	libtool >= 2:2
 BuildRequires:	mono-csharp >= 1.1.0
 BuildRequires:	monodoc >= 2.6
 BuildRequires:	pkgconfig
+BuildRequires:	rpmbuild(monoautodeps)
 Requires:	libsoup >= 2.42
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
