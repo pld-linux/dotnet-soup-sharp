@@ -3,7 +3,7 @@ Summary:	C# Bindings for libsoup2.4
 Summary(pl.UTF-8):	Wiązania C# do biblioteki libsoup2.4
 Name:		dotnet-soup-sharp
 Version:	2.42.2
-Release:	1
+Release:	2
 License:	LGPL v3
 Group:		Libraries
 Source0:	https://github.com/xDarkice/soup-sharp/releases/download/%{version}/soup-sharp-%{version}.tar.gz
@@ -63,6 +63,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
+
+%post	-p /sbin/ldconfig
+%postun	-p /sbin/ldconfig
 
 %files
 %defattr(644,root,root,755)
