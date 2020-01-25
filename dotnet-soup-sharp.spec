@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.mono
 Summary:	C# Bindings for libsoup2.4
 Summary(pl.UTF-8):	Wiązania C# do biblioteki libsoup2.4
 Name:		dotnet-soup-sharp
